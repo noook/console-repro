@@ -1,0 +1,38 @@
+{
+  "name": "console",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.vue --fix"
+  },
+  "dependencies": {
+    "axios": "^0.23.0",
+    "pinia": "^2.0.0-rc.13",
+    "v-tooltip": "^4.0.0-alpha.1",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.1",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "@vitejs/plugin-vue": "^1.2.2",
+    "@vue/compiler-sfc": "^3.0.5",
+    "eslint": "8",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-vue": "^7.19.1",
+    "sass": "^1.43.2",
+    "typescript": "^4.1.3",
+    "vite": "^2.3.3",
+    "vite-plugin-eslint": "^1.3.0",
+    "vite-plugin-fonts": "^0.2.2",
+    "vite-plugin-windicss": "^1.4.11",
+    "vue-eslint-parser": "^7.11.0",
+    "vue-tsc": "^0.0.24",
+    "windicss": "^3.1.9"
+  }
+}

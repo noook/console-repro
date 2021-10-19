@@ -1,0 +1,66 @@
+import { defineConfig } from 'windicss/helpers';
+
+export default defineConfig({
+  theme: {
+    extend: {
+      fontFamily: {
+        poppins: ['Poppins'],
+      },
+      colors: {
+        transparent: 'transparent',
+        primary: {
+          DEFAULT: '#1E0338',
+          900: '#1E0338',
+          800: '#2C144D',
+          700: '#341D59',
+          600: '#3C2563',
+          500: '#412C6B',
+          400: '#58497F',
+          300: '#716794',
+          200: '#9791B2',
+          100: '#C0BCD1',
+          50: '#E5E4EC',
+        },
+        secondary: {
+          DEFAULT: '#BE4300',
+          900: '#BE4300',
+          800: '#D65100',
+          700: '#E35800',
+          600: '#F16000',
+          500: '#FC6600',
+          400: '#FE7A2C',
+          300: '#FF9156',
+          200: '#FFAF88',
+          100: '#FFCEB7',
+          50: '#FCEAE5',
+        },
+        grayscale: {
+          DEFAULT: '#1A1A1A',
+          900: '#1A1A1A',
+          800: '#3A3A3A',
+          700: '#595959',
+          600: '#6C6C6C',
+          500: '#949494',
+          400: '#B4B4B4',
+          300: '#D8D8D8',
+          200: '#E8E8E8',
+          100: '#F2F2F2',
+          50: '#F9F9F9',
+        },
+        red: {
+          DEFAULT: '#B30214',
+          900: '#B30214',
+          800: '#C21620',
+          700: '#CF1F27',
+          600: '#E02A2D',
+          500: '#EF352D',
+          400: '#EB4949',
+          300: '#E26C6D',
+          200: '#ED9596',
+          100: '#FECAD0',
+          50: '#FFEAED',
+        },
+      },
+    },
+  },
+});
