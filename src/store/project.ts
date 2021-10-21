@@ -10,6 +10,9 @@ const useProjectStore = defineStore('project', {
     setProject(project: Project): void {
       this.project = project;
     },
+    clear(): void {
+      this.project = null;
+    },
     isCurrentProject(id: number): boolean {
       if (this.project === null) {
         return false;

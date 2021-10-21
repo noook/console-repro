@@ -24,6 +24,7 @@ const { project } = storeToRefs(projectStore);
 
 async function init() {
   if (projectStore.isCurrentProject(props.projectId) === false) {
+    projectStore.clear();
     projectStore.setProject(await getProject(props.projectId));
   }
 }
