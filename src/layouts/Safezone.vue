@@ -6,6 +6,6 @@
 
 <style lang="scss" scoped>
 .safezone {
-  @apply p-8;
+  @apply px-16 py-12;
 }
 </style>

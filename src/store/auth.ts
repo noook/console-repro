@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia';
-import User from '../models/User';
+import User from '@/models/User';
 
 const TOKEN_STORAGE_KEY = 'access_token';
 
@@ -16,6 +16,7 @@ const useAuthStore = defineStore('auth', {
   actions: {
     login(token: string) {
       this.user = new User(token);
+      this.token = token;
       localStorage.setItem(TOKEN_STORAGE_KEY, token);
     },
     logout() {

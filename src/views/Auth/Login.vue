@@ -48,7 +48,7 @@ async function onSubmit() {
 <style lang="scss" scoped>
 .login {
   @apply min-w-300px max-w-65/100;
-  @apply shadow my-16 mx-auto;
+  @apply shadow-E200 my-16 mx-auto;
   @apply p-8;
 
   form {

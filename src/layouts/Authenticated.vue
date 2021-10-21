@@ -1,7 +1,9 @@
 <template>
   <div class="authenticated">
     <Navbar />
-    <router-view />
+    <div class="view">
+      <router-view />
+    </div>
   </div>
 </template>
 
@@ -11,6 +13,10 @@ import Navbar from '@/components/Navbar.vue';
 
 <style lang="scss" scoped>
 .authenticated {
+  @apply h-screen flex flex-col;
 
+  .view {
+    @apply flex-grow overflow-y-auto;
+  }
 }
 </style>

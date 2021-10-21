@@ -1,5 +1,13 @@
 @import './fonts/icons/style.css';
 
+#app {
+  @apply font-poppins;
+}
+
+button:focus {
+  @apply outline-none;
+}
+
 h1 {
   @apply text-4xl;
 }

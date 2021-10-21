@@ -5,6 +5,7 @@ dependencies:
   vue: 3.2.20
   vue-router: 4.0.12_vue@3.2.20
 devDependencies:
+  '@babel/types': 7.15.6
   '@types/node': 16.11.1
   '@typescript-eslint/eslint-plugin': 5.0.0_3b49a3094ddb22ccc5b4c2c2360792e0
   '@typescript-eslint/parser': 5.0.0_eslint@8.0.1+typescript@4.4.4
@@ -60,6 +61,15 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-BRYa3wcQnjS/nqI8Ac94pYYpJfojHVvVXJ97+IDCImX4Jc8W8Xv1+47enbruk+q1etOpsQNwnfFcNGw+gtPGxA==
+  /@babel/types/7.15.6:
+    dependencies:
+      '@babel/helper-validator-identifier': 7.15.7
+      to-fast-properties: 2.0.0
+    dev: true
+    engines:
+      node: '>=6.9.0'
+    resolution:
+      integrity: sha512-BPU+7QhqNjmWyDO0/vitH/CuhpV8ZmK1wpKva8nuyNF5MJfuRNWMc+hc14+u9xT93kvykMdncrJT19h74uB1Ig==
   /@eslint/eslintrc/0.4.3:
     dependencies:
       ajv: 6.12.6
@@ -2262,6 +2272,12 @@ packages:
     dev: true
     resolution:
       integrity: sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
+  /to-fast-properties/2.0.0:
+    dev: true
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=
   /to-regex-range/5.0.1:
     dependencies:
       is-number: 7.0.0
@@ -2532,6 +2548,7 @@ packages:
     resolution:
       integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 specifiers:
+  '@babel/types': ^7.15.6
   '@types/node': ^16.11.1
   '@typescript-eslint/eslint-plugin': ^5.0.0
   '@typescript-eslint/parser': ^5.0.0

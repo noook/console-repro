@@ -1,7 +1,14 @@
 <template>
   <div class="navbar">
-    <img src="@/assets/golem.png" alt="Golem">
+    <router-link :to="{ name: 'projects' }">
+      <img class="logo" src="@/assets/golem-logo.svg" alt="Golem">
+    </router-link>
     <ul class="links">
+      <li>
+        <router-link :to="{ name: 'projects' }">
+          Projets
+        </router-link>
+      </li>
       <li class="flex items-center">
         <VDropdown>
           <button>
@@ -39,10 +46,18 @@ function logout() {
 <style lang="scss" scoped>
 .navbar {
   @apply h-12 px-6 bg-primary text-white;
-  @apply flex justify-between items-center;
+  @apply flex justify-between items-center flex-shrink-0;
 
-  > img {
-    @apply h-8;
+  .logo {
+    @apply h-6;
+  }
+
+  ul.links {
+    @apply flex items-center;
+
+    li {
+      @apply ml-8;
+    }
   }
 }
 </style>

@@ -8,6 +8,12 @@ export default defineConfig({
       },
       colors: {
         transparent: 'transparent',
+        brand: {
+          orange: '#FF742C',
+          red: '#FF3938',
+          'deep-purple': '#1E0338',
+          'dee-purple': '#1E0338',
+        },
         primary: {
           DEFAULT: '#1E0338',
           900: '#1E0338',
@@ -60,6 +66,12 @@ export default defineConfig({
           100: '#FECAD0',
           50: '#FFEAED',
         },
+      },
+      boxShadow: {
+        E100: '0px 1px 4px 0px rgba(26, 26, 26, 0.16)',
+        E200: '0px 2px 8px 0px rgba(26, 26, 26, 0.16)',
+        E300: '0px 4px 16px 0px rgba(26, 26, 26, 0.16)',
+        E400: '0px 8px 32px 0px rgba(26, 26, 26, 0.16)',
       },
     },
   },

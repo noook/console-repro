@@ -11,10 +11,4 @@ export default defineComponent({
 });
 </script>
 
-<style lang="scss">
-#app {
-  @apply font-poppins;
-}
-</style>
-
 <style src="@/assets/styles.scss" lang="scss"></style>

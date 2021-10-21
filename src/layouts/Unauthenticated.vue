@@ -1,6 +1,8 @@
 <template>
   <div class="unauthenticated">
-    <router-view />
+    <div class="view">
+      <router-view />
+    </div>
   </div>
 </template>
 
@@ -9,6 +11,10 @@
 
 <style lang="scss" scoped>
 .unauthenticated {
+  @apply h-screen flex flex-col;
 
+  .view {
+    @apply flex-grow overflow-y-auto;
+  }
 }
 </style>
